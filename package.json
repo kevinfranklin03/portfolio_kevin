@@ -1,0 +1,11 @@
+{
+  "name": "3d-portfolio-website-main",
+  "version": "1.0.0",
+  "description": "<a href=\"https://www.youtube.com/watch?v=BW2H0es4s58&list=PL67b5wgxuUtAP2ckCBi-ryBaZnRZi2nTj&index=6\" target=\"_blank\">   <img src=\"./thumbnail.png\" alt=\"Thumbnail\"/> </a>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

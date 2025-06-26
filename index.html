@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Prosto+One&family=Unlock&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KevinCode</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<body>
+    <header data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div class="logo">KEVINCODE</div>
+     <!-- Header -->
+<a class="contact-btn" href="#contact-section">Contact</a>
+
+
+
+    </header>
+
+    <div id="webgl-warning" style="display: none;" class="warning-banner">
+    🚨 For the best 3D experience, please enable hardware acceleration in your browser settings.
+</div>
+
+
+    <main>
+        <div class="title-section" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h1>Full Stack Developer</h1>
+            <div class="location">
+                <p>BASED<br>IN<br>UNITED KINGDOM</p>
+            </div>
+        </div>
+
+        <div class="bio-section" data-aos="fade-up" data-aos-duration="1500">
+            <p class="bio">
+                <span style="color: #76b0ab;">WEB DEVELOPER & AI WIZARD</span> CRAFTING SMOOTH UX.
+                <span style="color: #DC143C;">I DIG DEEP BEFORE I DEVELOP</span> — QUALITY, SCALE & USER SATISFACTION
+                FIRST.
+            </p>
+
+        </div>
+
+        <div class="scroll-down" data-aos="fade-up" data-aos-duration="1500"></div>
+
+        <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            data-aos-duration="3000" class="planet-3D"
+            url="https://prod.spline.design/h7mBAG69ry1CDWr9/scene.splinecode"></spline-viewer>
+        </spline-viewer>
+
+    </main>
+<section class="about-section">
+        <h1 class="about-title" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">About Me</h1>
+
+        <div class="bento-grid">
+            <div class="card intro" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                <h2 class="card-title">HI THERE, I'M KEVIN</h2>
+                <p class="card-text">
+             I started out with a simple goal, to build things that just work. Along the way, I hit those goals, shipped real projects, and solved real problems. But I wanted more. That hunger to explore, learn, and create led me to Belfast, where I pursued my Master’s and dove deep into new ideas and technologies.
+
+Now? I’m all about collaboration, creativity, and pushing boundaries, whether that’s through building intuitive apps, crafting immersive experiences in Unreal Engine, or adding a touch of AI magic. Outside the screen, you’ll catch me exploring new trails, going on spontaneous treks, or getting lost in a game world just as easily as a mountain pass.
+
+Always building. Always exploring. Let’s create something epic.
+                </p>
+
+                <img src="../images/gradient.png" alt="" class="background-img">
+
+                <div class="model-box">
+                    <spline-viewer class="info-3D" url="https://prod.spline.design/h7mBAG69ry1CDWr9/scene.splinecode"></spline-viewer>
+                </div>
+            </div>
+
+            <div class="card tech" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                <h2 class="card-title">TECH STACK</h2>
+                <p class="card-text">
+                    I specialize in a diverse range of programming languages, frameworks, and development tools that empower me to build intelligent, scalable, and high-performing applications. With a strong command of HTML, CSS, and JavaScript, I create visually appealing and responsive web interfaces that elevate user experience. My expertise extends to modern frameworks like React, Tailwind CSS, figma, and Spline, allowing me to craft interactive and maintainable front-end architectures. On the backend, I build secure and efficient APIs using Node.js and Spring Boot, C# while leveraging cloud platforms like AWS and Azure. I also integrate AI capabilities using Python, scikit-learn, and OpenAI to deliver smart, automated solutions.
+                </p>
+
+                <img src="../images/gradient 2.png" alt="" class="background-img">
+                <img src="../images/skills group.png" alt="" class="skills-group">
+            </div>
+
+            <div class="card time" data-aos="fade-up"
+            data-aos-duration="1500">
+                <h2 class="card-title">VERY FLEXIBLE WITH COMMUNICATIONS & LOCATIONS</h2>
+
+                <p class="card-text">Based in Northern Ireland, Belfast and open to remote work worldwide.</p>
+
+                <img src="../images/gradient3&4.png" alt="" class="background-img">
+
+                <button class="btn"><i class='bx bx-send'></i> CONTACT ME</button>
+            </div>
+
+            <div class="card passion" data-aos="fade-up"
+            data-aos-duration="1500">
+                <h2 class="card-title">PASSION FOR CODING</h2>
+                <p class="card-text">
+                    Solving problems and building solutions through code. Programming is my profession, it's my passion. I enjoy exploring new technologies and enhancing my skills.
+                </p>
+
+                <img src="../images/gradient3&4.png" alt="" class="background-img">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="projects-section">
+        <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">My Projects</h3>
+
+        <div class="slider" style="
+            --width: 60rem;
+            --height: 40rem;
+            --quantity: 4;
+        ">
+
+            <div class="list">
+                <div class="item" style="--position: 1"><video id="projectVideo1" loop playsinline
+                        src="../video/project-1.mp4"></video></div>
+
+                <div class="item" style="--position: 2"><video id="projectVideo2" loop playsinline
+                        src="../video/project-2.mp4"></video></div>
+
+                <div class="item" style="--position: 3"><video id="projectVideo3" loop playsinline
+                        src="../video/project-3.mp4"></video></div>
+
+                <div class="item"
+                 style="--position: 4"><video id="projectVideo4" loop playsinline
+                        src="../video/project-4.mp4"></video></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact-section" data-aos="fade-down">
+        <div class="section-header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h3>Get In Touch</h3>
+            <p>Have a project in mind or just want to say hello? Drop me a message</p>
+        </div>
+
+        <div class="contact-grid" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+            data-aos-offset="0" data-aos-duration="1500">
+
+            <div class="info-card">
+                <h3>Contact info</h3>
+
+                <div class="contact-item">
+                    <p>Email</p>
+                    <a href="#">kevin07franklin@gmail.com</a>
+                </div>
+
+                <div class="contact-item">
+                    <p>Location</p>
+                    <a href="#">Belfast, UK</a>
+                </div>
+
+                <div class="social-link">
+                    <p>Contacy with me</p>
+                    <a href="https://github.com/kevinfranklin03">GitHub</a>
+                    <a href="https://www.linkedin.com/in/kevinfranklin03/">Linkedin</a>
+                </div>
+
+            </div>
+
+            <div class="info-card">
+                <div class="info-card-content">
+                    <h3>Send Message</h3>
+
+                    <form id="contactForm">
+
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your name" required
+                                class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required
+                                class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="subject" required
+                                class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder="Your Message" required
+                                class="form-control"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="captcha-wrapper">
+                                 <div class="g-recaptcha" data-sitekey="6Lfjv20rAAAAADKSn6X4VlHJtoncAm1TBztN3d5x"></div>
+                            </div>
+ 
+</div>
+
+
+                        <button type="submit" id="submitBtn" class="message-btn" >Send Message</button>
+
+                        <div class="success-message" id="successMessage">
+                            Message sent successfully! I'll get back to you soon.
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>©️2025, Made with ❤️ by Kevin</h3>
+        <div class="box-icons">
+            <a href="https://github.com/kevinfranklin03"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/kevinfranklin03/"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.79/build/spline-viewer.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "VtF5A2FmEHjyrC4q9",
+            });
+        })();
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
